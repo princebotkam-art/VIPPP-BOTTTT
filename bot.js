@@ -3,8 +3,8 @@ const mysql = require('mysql2/promise');
 const axios = require('axios');
 
 // Environment variables
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8526222698:AAHej5d8w8kHtGhwYzGVmXs1n_TMjgaJ8wc';
-const ADMIN_ID = process.env.ADMIN_ID || '8290661165';
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8073903913:AAHEZZDpvk4WiFjrig2h9LhAcB5Sy-JobUM';
+const ADMIN_ID = process.env.ADMIN_ID || '7013727523';
 const DP_NUMBERS_CHANNEL = process.env.DP_NUMBERS_CHANNEL || 'https://t.me/dp_numbers';
 const DP_OTP_ZONE_CHANNEL = process.env.DP_OTP_ZONE_CHANNEL || 'https://t.me/dp_otp_zone';
 const OTP_API_URL = process.env.OTP_API_URL || 'http://147.135.212.197/crapi/st/viewstats';
