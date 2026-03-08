@@ -5,8 +5,8 @@ const axios = require('axios');
 // Environment variables
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8073903913:AAHEZZDpvk4WiFjrig2h9LhAcB5Sy-JobUM';
 const ADMIN_ID = process.env.ADMIN_ID || '7013727523';
-const DP_NUMBERS_CHANNEL = process.env.DP_NUMBERS_CHANNEL || 'https://t.me/dp_numbers';
-const DP_OTP_ZONE_CHANNEL = process.env.DP_OTP_ZONE_CHANNEL || 'https://t.me/dp_otp_zone';
+const DP_NUMBERS_CHANNEL = process.env.DP_NUMBERS_CHANNEL || 'https://t.me/+HQHslbIQIWY1MTg1';
+const DP_OTP_ZONE_CHANNEL = process.env.DP_OTP_ZONE_CHANNEL || 'https://t.me/+HQHslbIQIWY1MTg1';
 const OTP_API_URL = process.env.OTP_API_URL || 'http://147.135.212.197/crapi/st/viewstats';
 const OTP_API_TOKEN = process.env.OTP_API_TOKEN || 'R1BTQ0hBUzSAild8c2aWV3eYa1NpjVNIUpBzY1qCaWFHh5JUUpWIXQ==';
 
